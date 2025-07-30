@@ -1,0 +1,113 @@
+import { Product } from '../types';
+
+export const mockProducts: Product[] = [
+  {
+    id: '1',
+    title: 'Apple iPhone 15 Pro Max 256GB - Natural Titanium',
+    description: 'Brand new iPhone 15 Pro Max with A17 Pro chip, titanium design, and advanced camera system.',
+    price: 999.99,
+    currentBid: 850.00,
+    buyItNowPrice: 999.99,
+    imageUrl: 'https://images.pexels.com/photos/788946/pexels-photo-788946.jpeg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Electronics',
+    seller: 'TechStore Pro',
+    condition: 'New',
+    timeLeft: '2d 14h',
+    bids: 23,
+    watchers: 89,
+    isAuction: true,
+    shipping: 0
+  },
+  {
+    id: '2',
+    title: 'Vintage Leather Messenger Bag - Handcrafted',
+    description: 'Genuine leather messenger bag, perfect for professionals. Handcrafted with attention to detail.',
+    price: 149.99,
+    buyItNowPrice: 149.99,
+    imageUrl: 'https://images.pexels.com/photos/2905238/pexels-photo-2905238.jpeg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Fashion',
+    seller: 'LeatherCraft Co',
+    condition: 'New',
+    bids: 0,
+    watchers: 15,
+    isAuction: false,
+    shipping: 12.99
+  },
+  {
+    id: '3',
+    title: 'Gaming Mechanical Keyboard RGB Backlit',
+    description: 'Professional gaming keyboard with mechanical switches and customizable RGB lighting.',
+    price: 89.99,
+    currentBid: 75.00,
+    buyItNowPrice: 89.99,
+    imageUrl: 'https://images.pexels.com/photos/2115257/pexels-photo-2115257.jpeg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Electronics',
+    seller: 'Gaming Gear',
+    condition: 'New',
+    timeLeft: '5d 8h',
+    bids: 12,
+    watchers: 34,
+    isAuction: true,
+    shipping: 9.99
+  },
+  {
+    id: '4',
+    title: 'Wireless Bluetooth Headphones - Premium Sound',
+    description: 'High-quality wireless headphones with noise cancellation and 30-hour battery life.',
+    price: 199.99,
+    buyItNowPrice: 199.99,
+    imageUrl: 'https://images.pexels.com/photos/3394650/pexels-photo-3394650.jpeg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Electronics',
+    seller: 'AudioTech',
+    condition: 'New',
+    bids: 0,
+    watchers: 42,
+    isAuction: false,
+    shipping: 0
+  },
+  {
+    id: '5',
+    title: 'Handmade Ceramic Coffee Mug Set',
+    description: 'Beautiful set of 4 handmade ceramic mugs, perfect for coffee lovers.',
+    price: 49.99,
+    currentBid: 35.00,
+    buyItNowPrice: 49.99,
+    imageUrl: 'https://images.pexels.com/photos/1350560/pexels-photo-1350560.jpeg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Home & Garden',
+    seller: 'Artisan Pottery',
+    condition: 'New',
+    timeLeft: '1d 12h',
+    bids: 8,
+    watchers: 25,
+    isAuction: true,
+    shipping: 7.99
+  },
+  {
+    id: '6',
+    title: 'Professional DSLR Camera with Lens Kit',
+    description: 'Canon EOS camera with 18-55mm lens, perfect for photography enthusiasts.',
+    price: 599.99,
+    currentBid: 520.00,
+    buyItNowPrice: 599.99,
+    imageUrl: 'https://images.pexels.com/photos/90946/pexels-photo-90946.jpeg?auto=compress&cs=tinysrgb&w=400',
+    category: 'Electronics',
+    seller: 'Camera World',
+    condition: 'Used',
+    timeLeft: '3d 6h',
+    bids: 18,
+    watchers: 67,
+    isAuction: true,
+    shipping: 15.99
+  }
+];
+
+export const categories = [
+  'All Categories',
+  'Electronics',
+  'Fashion',
+  'Home & Garden',
+  'Sports',
+  'Collectibles',
+  'Books',
+  'Toys'
+];
