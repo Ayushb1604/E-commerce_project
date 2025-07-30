@@ -1,8 +1,6 @@
 # E-commerce_project
 # 🛒 My Store - E-commerce C2C Marketplace
 
-![My Store Banner](../E-commerce_project/screenshots/banner.png)
-
 ## Overview
 
 **My Store** is a modern, full-featured C2C (Customer-to-Customer) e-commerce platform where buyers and sellers connect safely and securely. Built with React, Vite, and Tailwind CSS, it offers a seamless experience for discovering, buying, and selling products online.
@@ -20,22 +18,6 @@
 - 📦 **Order Management**: Track your orders and view order history.
 - 📱 **Responsive Design**: Fully responsive for desktop, tablet, and mobile.
 - 🌈 **Modern UI**: Clean, intuitive, and beautiful interface with Tailwind CSS.
-
----
-
-## 📸 Screenshots
-
-### Home Page
-![Home Page](../E-commerce_project/screenshots/home.png)
-
-### Seller Registration
-![Seller Registration](../E-commerce_project/screenshots/seller_registration.png)
-
-### Product Listing
-![Product Listing](../E-commerce_project/screenshots/product_listing.png)
-
-### Cart & Checkout
-![Cart & Checkout](../E-commerce_project/screenshots/cart_checkout.png)
 
 ---
 
@@ -118,9 +100,3 @@ This project is licensed under the MIT License.
 - [Issues](https://github.com/yourusername/E-commerce_project/issues)
 - [Contact](mailto:hello@mystore.com)
 
----
-
-<p align="center">
-  <img src="https://img.shields.io/github/stars/yourusername/E-commerce_project?style=social" alt="GitHub stars" />
-  <img src="https://img.shields.io/github/forks/yourusername/E-commerce_project?style=social" alt="GitHub forks" />
-</p>
